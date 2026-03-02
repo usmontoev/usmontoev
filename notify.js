@@ -8,7 +8,7 @@ export default async function handler(req) {
   }
 
   const BOT_TOKEN = process.env.BOT_TOKEN;
-  const CHAT_ID   = process.env.CHAT_ID;
+  const CHAT_ID   = process.env.CHAT_ID; // 7537353770
 
   if (!BOT_TOKEN || !CHAT_ID) {
     return new Response('Server config error', { status: 500 });
