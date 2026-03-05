@@ -13,12 +13,11 @@ body {
   font-family: 'Inter', sans-serif;
   color: #fff;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 80px 16px 48px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  padding: 32px 16px;
+  overflow: hidden;
   position: relative;
 }
 
@@ -444,4 +443,12 @@ body {
 @keyframes blinkHint {
   0%, 100% { opacity: 0.4; }
   50%       { opacity: 1; }
+}
+
+.footer {
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+  padding-bottom: 4px;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
