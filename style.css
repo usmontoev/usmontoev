@@ -214,7 +214,7 @@ body {
 
 .link-telegram:hover {
   background: rgba(34, 158, 217, 0.18);
-  border-color: rgba(34, 158, 217, 0.45);
+  border-color: rgba(0, 167, 244, 0.45);
   box-shadow: 0 0 24px rgba(34, 158, 217, 0.2);
 }
 
@@ -225,8 +225,8 @@ body {
 }
 
 .link-tiktok:hover {
-  background: rgba(254, 44, 85, 0.15);
-  border-color: rgba(254, 44, 85, 0.4);
+  background: rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 24px rgba(254, 44, 85, 0.18);
 }
 
@@ -237,15 +237,15 @@ body {
 }
 
 .link-twitter:hover {
-  background: rgba(29, 155, 240, 0.15);
-  border-color: rgba(29, 155, 240, 0.4);
-  box-shadow: 0 0 24px rgba(29, 155, 240, 0.18);
+  background: rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.18);
 }
 
 .link-threads:hover {
-  background: rgba(200, 200, 200, 0.1);
-  border-color: rgba(200, 200, 200, 0.3);
-  box-shadow: 0 0 24px rgba(200, 200, 200, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 24px rgba(255, 255, 255, 0.1);
 }
 
 /* Icon */
@@ -277,11 +277,11 @@ body {
 }
 
 .icon-tiktok {
-  background: #010101;
+  background: #000000;
 }
 
 .icon-youtube {
-  background: #fff;
+  background: #fafafa;
   padding: 6px;
 }
 
