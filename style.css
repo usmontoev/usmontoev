@@ -503,9 +503,9 @@ body {
 
 .intro-hint {
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   letter-spacing: 2px;
-  animation: blinkHint 1.5s ease-in-out infinite;
+  animation: blinkHint 1.3s ease-in-out infinite;
 }
 
 @keyframes blinkHint {
