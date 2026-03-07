@@ -169,6 +169,17 @@
       updateBtn();
     }
 
+    // Sahifa ko'rinmay qolganda musiqani to'xtat
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        music.pause();
+        updateBtn();
+      } else {
+        music.play().catch(() => {});
+        updateBtn();
+      }
+    });
+
     function startSite() {
       const overlay = document.getElementById('intro-overlay');
       overlay.style.opacity = '0';
