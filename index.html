@@ -108,7 +108,7 @@
     </div>
 
     <div class="footer">
-      Tashkent, Uzbekistan 🇺🇿 &nbsp;·&nbsp; <span id="visitor-count">8213</span> visitors
+      Tashkent, Uzbekistan 🇺🇿
     </div>
 
   </div>
@@ -187,15 +187,6 @@
       setTimeout(() => overlay.style.display = 'none', 600);
       music.play().then(() => { updateBtn(); }).catch(() => { });
     }
-  </script>
-
-  <script>
-    fetch('https://usmontoev.goatcounter.com/counter/TOTAL.json')
-      .then(r => r.json())
-      .then(data => {
-        document.getElementById('visitor-count').textContent = data.count_unique || data.count || '—';
-      })
-      .catch(() => {});
   </script>
 
   <!-- GoatCounter analytics -->
